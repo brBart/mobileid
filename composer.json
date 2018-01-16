@@ -1,6 +1,6 @@
 {
-  "name": "kullar84/MobileID",
-  "description": "Estonian MobileID identity provider",
+  "name": "kullar84/mobile-id",
+  "description": "Estonian MobileID identity provider for laravel",
   "keywords": ["MobileID", "identity", "auth", "digidocservice","MobiilID","laravel"],
   "type": "package",
   "license": "MIT",
