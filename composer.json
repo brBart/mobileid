@@ -1,0 +1,33 @@
+{
+  "name": "kullar84/MobileID",
+  "description": "Estonian MobileID identity provider",
+  "keywords": ["MobileID", "identity", "auth", "digidocservice","MobiilID","laravel"],
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "5D Vision OÜ",
+      "email": "kullar5dvision.ee",
+	  "homepage": "http://www.5dvision.ee"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "kullar84/hashcode-lib": ">=1.0"
+  },
+  "autoload": {
+	"psr-4": {
+      "kullar84\\MobileID\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "kullar84\\MobileID\\MobileIDServiceProvider"
+      ],
+      "aliases": {
+        "MobileID": "kullar84\\MobileID\\MobileIDFacade"
+      }
+    }
+  }
+}
