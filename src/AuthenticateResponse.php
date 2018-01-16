@@ -4,7 +4,7 @@
  * @license   https://opensource.org/licenses/MIT MIT
  */
 
-namespace kullar84\MobileID;
+namespace kullar84\mobileid;
 
 /**
  * Mobile ID authentication response

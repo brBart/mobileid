@@ -4,7 +4,7 @@
  * @license   https://opensource.org/licenses/MIT MIT
  */
 
-namespace kullar84\MobileID;
+namespace kullar84\mobileid;
 
 use \Illuminate\Support\Facades\Facade;
 
@@ -25,6 +25,6 @@ class MobileIDFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'MobileID';
+        return 'mobileid';
     }
 }

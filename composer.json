@@ -1,5 +1,5 @@
 {
-  "name": "kullar84/mobile-id",
+  "name": "kullar84/mobileid",
   "description": "Estonian MobileID identity provider for laravel",
   "keywords": ["MobileID", "identity", "auth", "digidocservice","MobiilID","laravel"],
   "type": "package",
@@ -17,16 +17,16 @@
   },
   "autoload": {
 	"psr-4": {
-      "kullar84\\MobileID\\": "src/"
+      "kullar84\\mobileid\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "kullar84\\MobileID\\MobileIDServiceProvider"
+        "kullar84\\mobileid\\MobileIDServiceProvider"
       ],
       "aliases": {
-        "MobileID": "kullar84\\MobileID\\MobileIDFacade"
+        "MobileID": "kullar84\\mobileid\\MobileIDFacade"
       }
     }
   }

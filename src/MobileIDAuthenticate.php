@@ -5,7 +5,7 @@
  */
 
 
-namespace kullar84\MobileID;
+namespace kullar84\mobileid;
 
 use Session;
 
